@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import HeaderComponent from '../../helper/Navhelp';
 import classNames from 'classnames';
 import navigationmenu from '../../data/navigation.json';
+import contacts from '../../data/contacts.json'
 import Canvas from './Canvas';
 
 class Header extends HeaderComponent {
@@ -68,15 +69,16 @@ class Header extends HeaderComponent {
                                     <div className="item">
                                         <i className="fal fa-phone" />
                                         <span>Phone Number</span>
-                                        <Link to="tel:+90898787709">
-                                            <h5 className="title">+908 987 877 09</h5>
+                                        <Link to={`mailto:${contacts[0].phone1}`} >
+                                            <h5 className="title">{contacts[0].phone1}</h5>
                                         </Link>
                                     </div>
+                                  
                                     <div className="item">
                                         <i className="fal fa-envelope" />
                                         <span>Email Address</span>
-                                        <Link to="mailto:example@example.com">
-                                            <h5 className="title">example@example.com</h5>
+                                        <Link to={`mailto:${contacts[0].email}`} >
+                                            <h5 className="title">{contacts[0].email}</h5>
                                         </Link>
                                     </div>
                                 </div>
