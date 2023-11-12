@@ -5,15 +5,8 @@ import Slider from "react-slick";
 const bannerPosts = [
     {
         photo: "assets/img/front-image.jpg",
-    },
-    // {
-    //     photo: "assets/img/banner/02.jpg",
-    // }
+    }
 ];
-
-const logoPost = {
-    photo: "assets/img/logo.png",
-}
 
 class Banner extends Component {
     render() {
@@ -33,8 +26,8 @@ class Banner extends Component {
                   <div className="row align-items-center">
                       <div className="col-lg-6 col-md-6">
                           <div className="banner-content">
-                              <span className="promo-tag">The ultimate experience</span>
-                              <h1 className="title">Welcome <br/>to the most autentic hotel in Zanzibar</h1>
+                              <span className="promo-tag" >The ultimate luxury experience</span>
+                              <h1 className="title"> The Perfect <br /> Base For You</h1>
                               <ul>
                                   <li>
                                       <Link className="main-btn btn-filled" to="/room-details/1">take a tour</Link>
@@ -47,17 +40,10 @@ class Banner extends Component {
                       </div>
                       <div className="col-lg-6 col-md-6">
                           <div className="banner-thumb d-none d-md-block">
-                              <div className="banner-thumb-logo">
-                                  <img src={process.env.PUBLIC_URL + "/" + logoPost.photo} alt="img"/>
-                              </div>
-                          </div>
-                      </div>
-                      <div className="container-custom-full-size ">
-                          <div className="banner-thumb d-none d-md-block">
                               <Slider className="hero-slider-one" {...settings}>
                                   {bannerPosts.map((item, i) => (
                                     <div key={i} className="single-thumb">
-                                        <img src={process.env.PUBLIC_URL + "/" + item.photo} alt="img"/>
+                                        <img src={process.env.PUBLIC_URL + "/" + item.photo} alt="img" />
                                     </div>
                                   ))}
                               </Slider>

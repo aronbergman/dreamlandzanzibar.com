@@ -1682,11 +1682,12 @@ header.sticky-header.sticky-active.header-two .header-info .item .title {
   }
 }
 .banner-area .container-custom-full-size {
-  position: absolute;
+    overflow: hidden;
+  position: relative;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 400px;
   opacity: 0.7;
 }
 .banner-area .banner-thumb-logo {

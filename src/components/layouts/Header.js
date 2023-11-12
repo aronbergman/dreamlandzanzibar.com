@@ -58,10 +58,6 @@ class Header extends HeaderComponent {
                                 {/* from pushed-item */}
                                 <div className="nav-pushed-item" />
                             </div>
-                            {/* Site Logo */}
-                            <div className="site-logo">
-                                <Link to="/"><img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="logo" /></Link>
-                            </div>
                             {/* Header Info Pussed To Menu Wrap */}
                             <div className={`nav-push-item ${hideClass}`}>
                                 {/* Header Info */}
