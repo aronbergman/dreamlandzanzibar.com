@@ -4,9 +4,9 @@ import Slider from "react-slick";
 
 const bannerPosts = [
     {
-        photo: "assets/img/banner/04.jpg",
+        photo: "assets/img/front-image.jpg",
         tag: 'The ultimate luxury experience',
-        title: "The Perfect <br/> Base For You",
+        title: "Welcome to <br/>the most authentic<br/> hotel in Zanzibar",
     },
     {
         photo: "assets/img/banner/05.jpg",
@@ -31,7 +31,7 @@ class Mainbanner extends Component {
                     <div key={i} className="single-banner d-flex align-items-center justify-content-center">
                         <div className="container">
                             <div className="row justify-content-center">
-                                <div className="col-lg-8">
+                                <div className="col-lg-12">
                                     <div className="banner-content text-center">
                                         <span className="promo-tag">{item.tag}</span>
                                         <h1 className="title" dangerouslySetInnerHTML={{ __html: item.title }}/>

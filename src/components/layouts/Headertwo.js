@@ -29,7 +29,7 @@ class Headertwo extends HeaderComponent {
                                 {/* Mneu Items */}
                                 <div className="menu-items">
                                     <ul>
-                                        {navigationmenu.length > 0 ? navigationmenu.slice(0, 4).map((item, i) => (
+                                        {navigationmenu.length > 0 ? navigationmenu.slice(0, 7).map((item, i) => (
                                             <li key={i} className={`menu-item ${item.child ? 'menu-item-has-children' : ''} `} onClick={this.triggerChild}>
                                                 {item.child ? <Link onClick={e => e.preventDefault()} to="/"> {item.linkText} </Link> : <Link to={item.link}> {item.linkText} </Link>}
                                                 {item.child ?
@@ -57,11 +57,11 @@ class Headertwo extends HeaderComponent {
                                 {/* from pushed-item */}
                                 <div className="nav-pushed-item" />
                             </div>
-                            {/* Site Logo */}
-                            <div className="site-logo">
-                                <Link to="/" className="main-logo"><img src={process.env.PUBLIC_URL + "/assets/img/logo-white.png"} alt="logo" /></Link>
-                                <Link to="/" className="sticky-logo"><img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="logo" /></Link>
-                            </div>
+                            {/*/!* Site Logo *!/*/}
+                            {/*<div className="site-logo">*/}
+                            {/*    <Link to="/" className="main-logo"><img src={process.env.PUBLIC_URL + "/assets/img/logo-white.png"} alt="logo" /></Link>*/}
+                            {/*    <Link to="/" className="sticky-logo"><img src={process.env.PUBLIC_URL + "/assets/img/logo.png"} alt="logo" /></Link>*/}
+                            {/*</div>*/}
                             {/* Header Info Pussed To Menu Wrap */}
                             <div className={`nav-push-item ${hideClass}`}>
                                 {/* Header Info */}

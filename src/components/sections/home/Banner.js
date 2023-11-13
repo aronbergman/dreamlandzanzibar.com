@@ -26,8 +26,8 @@ class Banner extends Component {
                   <div className="row align-items-center">
                       <div className="col-lg-6 col-md-6">
                           <div className="banner-content">
-                              <span className="promo-tag" >The ultimate luxury experience</span>
-                              <h1 className="title"> The Perfect <br /> Base For You</h1>
+                              <span className="promo-tag" >WELCOME TO THE MOST AUTHENTIC</span>
+                              <h1 className="title"> HOTEL <br /> IN ZANZIBAR</h1>
                               <ul>
                                   <li>
                                       <Link className="main-btn btn-filled" to="/room-details/1">take a tour</Link>

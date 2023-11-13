@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, withRouter } from 'react-router-dom';
 const Preloader = React.lazy(() => import("./components/layouts/Preloader"));
 
 // Pages
-const Home = React.lazy(() => import("./components/pages/Home"));
+const Home = React.lazy(() => import("./components/pages/Hometwo"));
 const Hometwo = React.lazy(() => import("./components/pages/Hometwo"));
 const Homethree = React.lazy(() => import("./components/pages/Homethree"));
 const Roomgrid = React.lazy(() => import("./components/pages/Roomgrid"));
