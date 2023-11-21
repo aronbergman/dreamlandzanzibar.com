@@ -19,5 +19,5 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm install
-      - run: npm build
-      - run: pm2 startOrRestart pm2.config.js --env prod -p 3010
+      - run: npm run build
+      - run: pm2 startOrRestart pm2.config.js
