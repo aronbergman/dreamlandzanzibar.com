@@ -1,19 +1,26 @@
 import Navbar from "@/components/Layout/Navbar";
+import Footer from "@/components/Layout/Footer";
+import HeroBanner from "@/components/HomeThree/HeroBanner";
+import Benefits from "@/components/HomeThree/Benefits";
+import Welcome from "@/components/HomeThree/Welcome";
+import FunFactsTwo from "@/components/Common/FunFactsTwo";
+import MostPopularPlaces from "@/components/HomeThree/MostPopularPlaces";
+import Faq from "@/components/HomeThree/Faq";
+import HowItWorks from "@/components/HomeThree/HowItWorks";
+import PopularDestinationWeOffer from "@/components/HomeThree/PopularDestinationWeOffer";
+import TestimonialSliderThree from "@/components/Common/TestimonialSliderThree";
+import Partner from "@/components/Common/Partner";
+import LatestBlogPost from "@/components/Common/LatestBlogPost";
+
+// TODO: Bring order to sections that were missing
 import DiscoverGreatPlaces from "@/components/Common/DiscoverGreatPlaces";
 import NewsletterForm from "@/components/Common/NewsletterForm";
 import TestimonialSlider from "@/components/Common/TestimonialSlider";
 import TopAuthor from "@/components/Common/TopAuthor";
-import Benefits from "@/components/HomeOne/Benefits";
 import DiscountOfferTrip from "@/components/HomeOne/DiscountOfferTrip";
-import HeroBanner from "@/components/HomeOne/HeroBanner";
-import HowItWorks from "@/components/HomeOne/HowItWorks";
-import MostPopularPlaces from "@/components/HomeOne/MostPopularPlaces";
 import OurHottestVideos from "@/components/HomeOne/OurHottestVideos";
-import Partner from "@/components/HomeOne/Partner";
 import PopularDestination from "@/components/HomeOne/PopularDestination";
-import Welcome from "@/components/HomeOne/Welcome";
 import WhyChooseUs from "@/components/HomeOne/WhyChooseUs";
-import Footer from "@/components/Layout/Footer";
 
 export default function Home() {
   return (
@@ -22,17 +29,29 @@ export default function Home() {
 
       <HeroBanner />
 
-      <Partner />
-
       <Benefits />
-
-      <PopularDestination />
 
       <Welcome />
 
+      <FunFactsTwo />
+
       <MostPopularPlaces />
 
-      <HowItWorks />
+      <Faq />
+
+      <HowItWorks/>
+
+      <PopularDestinationWeOffer />
+
+      <TestimonialSliderThree />
+
+      <div className="ptb-175">
+        <Partner />
+      </div>
+
+      <LatestBlogPost />
+
+      <PopularDestination />
 
       <DiscountOfferTrip />
 
