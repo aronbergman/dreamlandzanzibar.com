@@ -17,7 +17,7 @@ const Welcome = () => {
               className="col-lg-6" 
             >
               <div className="destination-content">
-                <span className="top-title">WELCOME TO TOFY</span>
+                <span className="top-title">^_^ WELCOME TO TOFY</span>
                 <h2>We Recommend Beautiful Destination every month</h2>
                 <p className="mb-33">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, do
