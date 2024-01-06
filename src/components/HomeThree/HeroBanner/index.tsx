@@ -58,7 +58,7 @@ const HeroBanner = () => {
                   data-aos-duration="500"
                   data-aos-once="true"
                 >
-                  <span className="top-title">EXPLORE THE WORLD</span>
+                  <span className="top-title">^_^ EXPLORE THE WORLD</span>
                   <h1>Let’s Find Your Dream Destination</h1>
                   <p>
                     Proin gravida nibh vel velit auctor aliquet aenean
