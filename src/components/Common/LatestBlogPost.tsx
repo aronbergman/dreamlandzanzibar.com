@@ -94,6 +94,39 @@ const LatestBlogPost = () => {
                   <Link href="/blog/blog-details" className="read-more">Read More</Link>
                 </div>
               </div>
+            </div> <div
+              className="col-xl-4 col-md-6"
+            >
+              <div className="blog-single-item">
+                <Link href="/blog/blog-details" className="d-block blog-single-img">
+                  <Image src={postImg2} alt="blog" />
+                  <div className="date">
+                    <span className="count">04</span>
+                    <span className="mon">Aug</span>
+                  </div>
+                </Link>
+
+                <div className="blog-single-content">
+                  <ul className="d-flex align-items-center ps-0 list-unstyled">
+                    <li>
+                      <Link href="/author">
+                        <i className="ri-user-line"></i>
+                        <span>By Admin</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/blog/blog-details">
+                        <i className="ri-question-answer-line"></i>
+                        <span>No Comment</span>
+                      </Link>
+                    </li>
+                  </ul>
+                  <h4>
+                    <Link href="/blog/blog-details">Travel The Most Beautiful Places In the World</Link>
+                  </h4>
+                  <Link href="/blog/blog-details" className="read-more">Read More</Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ const HeroBanner = () => {
             <div className="col-lg-5 order-2 order-lg-1">
               <div className="banner-img-wrap style-three">
                 <div className="row">
-                  <div 
+                  <div
                     className="col-lg-5 col-sm-6"
                     data-aos="fade-right"
                     data-aos-delay="100"
@@ -26,11 +26,11 @@ const HeroBanner = () => {
                     data-aos-once="true"
                   >
                     <div className="banner-img-two position-relative z-1">
-                      <Image src={heroImg} alt="banner" />
+                      <Image src={heroImg} alt="banner"/>
                     </div>
                   </div>
 
-                  <div 
+                  <div
                     className="col-lg-7 col-sm-6"
                     data-aos="fade-right"
                     data-aos-delay="200"
@@ -38,7 +38,7 @@ const HeroBanner = () => {
                     data-aos-once="true"
                   >
                     <div className="banner-img position-relative z-1">
-                      <Image src={heroImg2} alt="banner" />
+                      <Image src={heroImg2} alt="banner"/>
                       <Image
                         src={shape}
                         className="shape shape-14"
@@ -52,42 +52,41 @@ const HeroBanner = () => {
 
             <div className="col-lg-7 order-1 order-lg-2">
               <div className="banner-content style-three">
-                <div 
+                <div
                   data-aos="fade-left"
                   data-aos-delay="300"
                   data-aos-duration="500"
                   data-aos-once="true"
                 >
-                  <span className="top-title">^_^ EXPLORE THE WORLD</span>
-                  <h1>Let’s Find Your Dream Destination</h1>
+                  <span className="top-title">WELCOME TO THE</span>
+                  <h1>MOST AUTHENTIC HOTEL IN ZANZIBAR</h1>
                   <p>
-                    Proin gravida nibh vel velit auctor aliquet aenean
-                    sollicitudin lorem quis bibendum auctor nisi elit consequat
-                    ipsum nec sagittis sem nibh id elit dolore
+                    Our bungalows are designed with utmost care and respect for the natural surroundings, allowing you
+                    to connect with the beauty of Tanzania.
                   </p>
 
                   <div className="banner-btn">
-                    <Link href="/stay" className="default-btn active rounded-10">
-                      Start Your Search
+                    <Link href="/activites" className="default-btn active rounded-10">
+                      Activites
                     </Link>
                     <Link
-                      href="/subscription"
+                      href="/our-rooms"
                       className="default-btn rounded-10 bg-transparent"
                     >
-                      <span>Get Price</span>
+                      <span>Our rooms</span>
                     </Link>
                   </div>
                 </div>
 
                 {/* BookingSearchForm */}
-                <BookingSearchForm />
+                <BookingSearchForm/>
               </div>
             </div>
           </div>
         </div>
 
         {/* shape */}
-        <Image src={shape2} className="shape shape-18" alt="shape-18" />
+        <Image src={shape2} className="shape shape-18" alt="shape-18"/>
       </div>
     </>
   );

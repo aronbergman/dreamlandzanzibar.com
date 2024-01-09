@@ -156,16 +156,16 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="copy-right-area">
-        <div className="container">
-          <p>
-            © <span>dreamlandzanzibar</span> is Proudly Owned by{" "}
-            <a href="https://hibootstrap.com/" target="_blank">
-              HiBootstrap
-            </a>
-          </p>
-        </div>
-      </div>
+      {/*<div className="copy-right-area">*/}
+      {/*  <div className="container">*/}
+      {/*    <p>*/}
+      {/*      © <span>dreamlandzanzibar</span> is Proudly Owned by{" "}*/}
+      {/*      <a href="https://hibootstrap.com/" target="_blank">*/}
+      {/*        HiBootstrap*/}
+      {/*      </a>*/}
+      {/*    </p>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
     </>
   );
 };

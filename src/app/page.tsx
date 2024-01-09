@@ -29,39 +29,39 @@ export default function Home() {
 
       <HeroBanner />
 
-      <Benefits />
+      {/*<Benefits />*/}
 
       <Welcome />
 
-      <FunFactsTwo />
+      {/*<FunFactsTwo />*/}
+
+      <PopularDestinationWeOffer />
 
       <MostPopularPlaces />
 
       <Faq />
 
-      <HowItWorks/>
-
-      <PopularDestinationWeOffer />
+      {/*<HowItWorks/>*/}
 
       <TestimonialSliderThree />
 
       <div className="ptb-175">
-        <Partner />
+      {/*  <Partner />*/}
       </div>
 
       <LatestBlogPost />
 
-      <PopularDestination />
+      {/*<PopularDestination />*/}
 
       <DiscountOfferTrip />
 
       <WhyChooseUs />
 
-      <TopAuthor />
+      {/*<TopAuthor />*/}
 
       <TestimonialSlider />
 
-      <DiscoverGreatPlaces />
+      {/*<DiscoverGreatPlaces />*/}
 
       <OurHottestVideos />
 
